@@ -1,0 +1,37 @@
+.footer{
+    background-color: var(--mo);
+
+    width: 100%;
+    
+    padding: 1.5rem 0;
+}
+
+.footer a{
+    display: flex;
+    justify-content: center;
+}
+
+.mandarinLogo{
+    width: 70%;
+}
+
+.copyright{
+    color: var(--mgy);
+    background-color: #efefef;
+
+    text-align: center;
+    font-size: 14px;
+
+    width: 100%;
+
+    padding: 1rem 0;
+}
+
+.copyright p{
+    margin: 0;
+}
+
+.copyright a{
+    color: var(--mgy);
+    transition: 0.5s all;
+}

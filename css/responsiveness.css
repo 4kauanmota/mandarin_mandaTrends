@@ -1,0 +1,49 @@
+@media(min-width: 450px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media(min-width: 550px) {
+    .container{
+        width: 80%;
+    }
+}
+
+@media(min-width: 650px) {
+    .maxContainer{
+        width: 650px;
+        margin: 0 auto;
+
+        background-color: var(--sbk);
+    }
+
+    .container{
+        width: 95%;
+    }
+
+    .bg{
+        background-color: var(--mw);
+    }
+
+    .announceOrganization{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #news1{
+        grid-column: span 2;
+    }
+
+    .imgContainer{
+        height: 13rem;
+    }
+
+    #news1 .imgContainer{
+        height: 20rem;
+    }
+
+    .mandarinLogo{
+        width: 50%;
+    }
+}

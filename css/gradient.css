@@ -1,0 +1,38 @@
+@keyframes gradientAnim{
+    to{
+        background-position: 100%;
+    }
+}
+
+.soToSr{
+    background: linear-gradient(to right, var(--so), var(--sr), var(--so), var(--sr));
+
+    animation: gradientAnim 5s linear infinite;
+    background-size: 300% 100%;
+}
+
+.srToMp{
+    background: linear-gradient(to right, var(--sr), var(--mp), var(--sr), var(--mp));
+
+    border-radius: 32px;
+}
+
+.sbToMp{
+    background: linear-gradient(to right, var(--sb), var(--mp), var(--sb), var(--mp));
+
+    border-radius: 32px;
+}
+
+.sbToMg{
+    background: linear-gradient(to right, var(--sb), var(--mg), var(--sb), var(--mg));
+
+    border-radius: 32px;
+}
+
+.gradient{
+    animation: gradientAnim 5s linear infinite;
+    background-size: 300% 100%;
+
+    width: 70%;
+    height: 0.5rem;
+}

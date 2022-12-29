@@ -1,0 +1,86 @@
+.announceOrganization{
+    display: flex;
+    flex-flow: column wrap;
+
+    margin: 0 0 1.5rem 0;
+}
+
+.mainContent{
+    padding: 0 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.secondaryContent{
+    padding: 0 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.imgContainer{
+    width: 100%;
+    height: 35vh;
+
+    overflow: hidden;
+
+    border-radius: 16px;
+
+    transition: 1s ease-in-out all;
+
+    cursor: pointer;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: 50% 50%;
+
+    transition: 1s ease-in-out all;
+}
+
+.img:hover{
+	transform: scale(1.2);
+}
+
+.imgContainer:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px 0px, rgba(0, 0, 0, 0.3) 0px 3px 7px 0px;
+}
+
+
+.informationsContainer{
+    margin: 0.6rem 0 0 0.2rem;
+
+}
+
+.title{
+    color: var(--mbk);
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    margin: 1rem 0;
+
+    text-decoration: none;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.subTitle{
+    color: var(--mgy);
+
+    margin-top: 0.4rem;
+}
+
+.source{
+    color: var(--sgy);
+}
+
+a.source{
+    transition: 0.5s all;
+    text-decoration: none;
+}
+
+a.source:hover, .copyright a:hover{
+    color: #1e90ff;
+}

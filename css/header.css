@@ -1,0 +1,85 @@
+.header{
+    width: 100%;
+
+    margin: 0 0 2rem 0;
+}
+
+.headerOrganization{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "logo news"
+    "girl news"
+    ;
+    
+    position: relative;
+}
+
+#logo_mandaTrends{
+    grid-area: logo;
+
+    justify-self: center;
+
+    margin: 1rem;
+}
+
+#news{
+    grid-area: news;
+    align-self:stretch;
+
+    text-align: end;
+    margin: 1.5rem 2rem 0 1rem;
+}
+
+#news h5, #news a{
+    color: var(--mw);
+    margin: 0;
+    text-decoration: none;
+}
+
+#news a:hover{
+    text-decoration: underline;
+}
+
+#girl{
+    grid-area: girl;
+
+    height: 3rem;
+    margin: 0 1rem 1rem 1rem;
+}
+
+#girl img{
+    max-height: 8rem;
+    transform: translateY(-12px);
+
+    position: relative;
+    z-index: 1;
+}
+
+.balls, .triangle, .zigzag, .circle, .arrows{
+    position: absolute;
+}
+
+.circle{
+    left: -25%;
+    top: -20%;
+}
+
+.balls{
+    top: 70%;
+    left: 50%;
+}
+
+.triangle{
+    top: 0;
+    right: 4.5%;
+}
+
+.zigzag{
+    bottom: 10%;
+    right: 7%;
+}
+
+.arrows{
+    top: 5%;
+    right: 25%;
+}
