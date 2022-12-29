@@ -20,6 +20,8 @@
     justify-self: center;
 
     margin: 1rem;
+
+    z-index: 2;
 }
 
 #news{
@@ -51,7 +53,7 @@
     max-height: 8rem;
     transform: translateY(-12px);
 
-    position: relative;
+    position: absolute;
     z-index: 1;
 }
 

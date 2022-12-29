@@ -13,6 +13,7 @@
 @media(min-width: 650px) {
     .maxContainer{
         width: 650px;
+        height: 100%;
         margin: 0 auto;
 
         background-color: var(--sbk);
@@ -24,6 +25,56 @@
 
     .bg{
         background-color: var(--mw);
+    }
+
+    .headerOrganization{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "logo girl news"
+        ;
+
+        padding: 1rem;
+    }
+
+    #logo_mandaTrends{
+        align-self: center;
+    }
+
+    #girl img{
+        right: 35%;
+        bottom: -46%;
+    }
+
+    #news{
+        text-align: end;
+
+        height: 100%;
+        align-self: center;
+    }
+
+    .circle{
+        left: 0;
+        top: auto;
+        bottom: -30%;
+    }
+    
+    .balls{
+        top: 70%;
+        left: 50%;
+    }
+    
+    .triangle{
+        top: 0;
+        right: 4.5%;
+    }
+    
+    .zigzag{
+        bottom: 10%;
+        right: 7%;
+    }
+    
+    .arrows{
+        top: 5%;
+        right: 25%;
     }
 
     .announceOrganization{
@@ -45,5 +96,19 @@
 
     .mandarinLogo{
         width: 50%;
+    }
+}
+
+@media(min-width: 1600px){
+    .maxContainer{
+        width: 850px;
+    }
+
+    .container{
+        width: 80%;
+    }
+
+    #news1 .imgContainer{
+        height: 21rem;
     }
 }
