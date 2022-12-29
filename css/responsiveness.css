@@ -117,4 +117,17 @@
     #news1 .imgContainer{
         height: 21rem;
     }
+    
+    .balls{
+        top: 80%;
+        left: 34%;
+    }
+    
+    .triangle{
+        right: 3.5%;
+    }
+    
+    .zigzag{
+        right: 5.5%;
+    }
 }
