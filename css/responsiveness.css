@@ -39,9 +39,15 @@
         align-self: center;
     }
 
-    #girl img{
+    #girl{
+        height: 4rem;
+    }
+
+    #girl img{ 
+        max-height: 9.5rem;
+
         right: 35%;
-        bottom: -46%;
+        bottom: -53%;
     }
 
     #news{
@@ -58,23 +64,23 @@
     }
     
     .balls{
-        top: 70%;
-        left: 50%;
+        top: 80%;
+        left: 34%;
     }
     
     .triangle{
-        top: 0;
+        top: 2%;
         right: 4.5%;
     }
     
     .zigzag{
         bottom: 10%;
-        right: 7%;
+        right: 7.5%;
     }
     
     .arrows{
-        top: 5%;
-        right: 25%;
+        top: 15%;
+        right: 49%;
     }
 
     .announceOrganization{
