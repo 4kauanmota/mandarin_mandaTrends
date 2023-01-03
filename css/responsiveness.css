@@ -29,8 +29,7 @@
 
     .headerOrganization{
         grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "logo girl news"
-        ;
+        grid-template-areas: "logo girl news";
 
         padding: 1rem;
     }
